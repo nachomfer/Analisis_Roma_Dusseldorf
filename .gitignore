@@ -1,0 +1,55 @@
+# Archivos del sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.temp
+*~
+~$*
+
+# Logs
+*.log
+
+# Archivos de backup
+*.bak
+*.backup
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de Python (si los hay)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos de Node.js (si los hay)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Solo incluir archivos del informe interactivo
+# Ignorar todo excepto los archivos específicos del proyecto
+*
+!informe_interactivo.html
+!README.md
+!.gitignore
+!.github/
+!assets/
+!video_mapping.py
